@@ -1,0 +1,19 @@
+@font-face {
+    font-family: headerFont;
+    src: url(ShadowsIntoLight-Regular.ttf);
+}
+
+body {
+    background-color: #ddd;
+    font-size: large;
+    font-family: headerFont;
+}
+
+h1.header {
+    font-size: 90px;
+}
+
+footer {
+    font-family: sans-serif;
+    font-size: small;
+}
