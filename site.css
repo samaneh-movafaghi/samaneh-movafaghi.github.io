@@ -4,16 +4,40 @@
 }
 
 body {
-    background-color: #ddd;
-    font-size: large;
+    background-color: #dfddaf;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: headerFont;
 }
 
-h1.header {
-    font-size: 90px;
+h2 {
+    font-weight: bold;
 }
 
 footer {
     font-family: sans-serif;
     font-size: small;
+}
+
+ul.skills {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.skills li {
+    margin-right: 30px;
+}
+
+.score {
+    float: right;
+}
+
+.fa-star {
+
+}
+
+.darkblue {
+    color: #0b1482;
 }
